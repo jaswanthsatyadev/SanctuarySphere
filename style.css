@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.background3d{
+    position: absolute;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    scale: 1.25;
+    z-index: -100;
+}
+body{
+    overflow: hidden;
+}
+
+.header {
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    gap: 100px;
+    padding: 10px;
+    position: fixed;
+    border: 1px solid;
+    border-radius: 40px;
+    background-color: rgba(15, 247, 65, 0.808);
+    max-height: 100px;
+    max-width: 900px;
+    top: 0;
+    left: 20%;
+    justify-content: center;
+    width: 100%;
+    z-index: 999; 
+    margin-top: 8px;
+
+}
+.header .logo{
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: rgb(20, 41, 154);
+    font-family:lobster;
+}
+.header a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 25px;
+    transition-duration: 0.5s;
+    font-weight: bold ;
+    font-size: 18px;
+    
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+.header .anchors{
+    padding-top: 17px;
+}
+.header a:hover{
+    color:blue;
+    cursor: pointer;
+    font-size: 22px;
+    
+}
+
+.header .anchors :nth-child(4){
+    border: 3px solid black;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius:20px ;
+    color: white;
+    background-color: black;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+
+}
+
+.header .anchors :nth-child(4):hover{
+    background-color: crimson;
+}
+
+.mainheader{
+    font-family: poppins;
+    margin-top: 440px;
+    text-align: center; 
+    color: white;  
+    font-size: 24px;
+    font-weight: bold;
+    left: 26.5%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4); 
+    padding: 20px; 
+    border-radius: 10px; 
+    display: inline-block; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    animation: fadein 2s ease-in-out;
+    background-color: #14181c;
+    z-index: 999;
+    transition: background-color 0.5s;
+    position: fixed;
+    bottom: 5%;
+}
+.mainheader h1{
+    font-weight: 1000;
+    font-size: 32px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-style: italic;
+}
+@keyframes fadein { 
+    from { opacity: 0; } 
+    to { opacity: 1; } 
+}
+
+.mainheader :nth-child(2){
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(217, 247, 247);
+    font-family: Montserrat;
+    
+}
+.playinfo{
+    background-color: rgba(0, 0, 0, 0.167);
+    display: inline-block;
+    padding: 40px;
+    border-radius: 20px;
+    bottom: 40%;
+    position: absolute;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    right: 5%;
+    font-family: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    background-color: #14181c;
+    transition: background-color 0.5s ease-in;
+    text-align: center;
+
+}
+
+.playinfo :nth-child(1){
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(217, 247, 247);
+    font-family: Montserrat;
+}
