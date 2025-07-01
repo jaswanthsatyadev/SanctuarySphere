@@ -4,3 +4,5 @@ See what all kinds of animaitions you can do just with HTML & CSS Only.
 
 
 https://sanctuary-sphere.vercel.app/
+
+Explore all the sections of the website
